@@ -1,13 +1,13 @@
 {
   "name": "website",
   "version": "0.0.1",
-  "main": "index.html",
+  "main": "app.js",
   "engines": {
     "node": ">=10.17.0",
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "start": "node index.html"
+    "start": "node app.js"
   },
   "dependencies": {
     "bootstrap": "^3.4.1",
