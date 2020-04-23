@@ -1,31 +1,30 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<%- include('header') %>
 
-    <h1 id="welcome" class="text-center"> Hello </h1>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+<body>
+    <div class="text-center content">
+      <img id="icon" src="/images/me.jpg"/>
+      <h1 id="welcome"> Hello, I'm Jessica! </h1>
 
-  </head>
-
-  <div>
+    <br>
     
-    <div class="form-group text-center">
-        <button class="btn btn-outline-secondary btn-wide home_buttons animsition-link" type="submit">
-            <span aria-hidden="true"></span>
-            <a href="aboutme.php" class="animsition-link">About Me</a>
-        </button>
-        <button class="btn btn-outline-secondary btn-wide home_buttons animsition-link" type="submit">
-            <span aria-hidden="true"></span>
-            <a href="projects.php" class="animsition-link">Projects</a>
-        </button>
-        <button class="btn btn-outline-secondary btn-wide home_buttons animsition-link" type="submit">
-            <span aria-hidden="true"></span>
-            <a href="experience.php" class="animsition-link">Experience</a>
-        </button>
-  </div>
+    <p id="about">
+    nice to meet you! i'm a recent yale graduate living in New York, working as a software engineer at a lil startup. we built some cool gen-z, mental health, fashion content. before this, i did some work at five rings capital and girls who code. big fan of food and eating it. i'll probably have more to say about myself if we talk in person.
+    
+    <br/><br/>
+    contact me at jhongtx@gmail.com!
+    
+    <br/>
+    some projects:
+    </p>
+    
+    <br/>
+    <div class="parent">
+    <ul>
+    <li><a href="https://yada.land/">yada</a></li>
+    <li> <a href="https://buywithsage.com/">buywithsage.com</a></li>
+    <li> <a href="https://coopcoopcoop.com/">coop</a></li>
+    <ul>
+    </div>
 
 
-</html>
+<%- include('footer') %>
